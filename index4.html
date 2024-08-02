@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of the current webpage that goes into more explanation about JavaScript Statements -->
+<h2>JavaScript Statements</h2>
+
+<!-- the p element that gives a brief explanation about how multiple statements that are on one line are allowed when each of them are separated by semicolons at the end of each of them -->
+<p>Multiple statements on one line are allowed.</p>
+
+<!-- the p element that contains an id called demo1 only and nothing else -->
+<p id="demo1"></p>
+
+<!-- opening and closing script tags that contain one line of code showing each of the 3 different variables called a, b, c with the let variable and another line of code that shows each of the multiple statements of each of the a, b, c variables having a semicolon at the end of each of them and being on one single line which would then be allowed and also one more line of code that is telling the browser for this current document/webpage to print out what the variable c would equal to into the particular HTML element being the p element that specifically contains an id called demo1 -->
+<script>
+let a, b, c;
+a = 5; b = 6; c = a + b;
+document.getElementById("demo1").innerHTML = c;
+</script>
+
+</body>
+</html>

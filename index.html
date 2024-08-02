@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has to do with JavaScript Statements -->
+<h2>JavaScript Statements</h2>
+
+<!-- the p element that gives an explanation for both of the JavaScript program and statements -->
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<!-- the p element that only contains an id called demo -->
+<p id="demo"></p>
+
+<!-- opening and closing script tags that has 4 statements including a line (2 lines of code being part of one line of code) of code inside of each of them  that gathers the p element's id called demo and then has an innerHTML property that would equal to a sentence that would be added to the p element that has an id called demo that mainly says what the value of z would be of being 11 since 5 and 6 are being added to eachother in order to be the result of 11 right after -->
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";  
+</script>
+
+</body>
+</html>

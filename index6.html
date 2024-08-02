@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this current webpage that goes further into more explanation about JavaScript Statements -->
+<h2>JavaScript Statements</h2>
+
+<!-- the p element that gives some brief explanation about where JavaScript code blocks are written at -->
+<p>JavaScript code blocks are written between { and }</p>
+
+<!-- button called "Click Me!" that contains an onclick that equals to the myFunction function that an be clicked on and where 2 different statements would be displayed in each p element that has their own id of one being called demo1 and the other being called demo2 -->
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<!-- the p element that contains only an id called demo1 -->
+<p id="demo1"></p>
+
+<!-- the p element that has an id called demo2 only -->
+<p id="demo2"></p>
+
+<!-- opening and closing script tags that contains the myFunction function that contains inside of this specific function each line of code of where one line of code is telling the browser for this specific document/webpage to print out the statement specifically called "Hello Dolly!" into an HTML element specifically the p element that specifically contains an id called demo1 and where another line of code is telling the browser for this specific document/webpage to print out the statement specifically called "How are you?" into the HTML element which is specifically the p element that specifically contains an id called demo2 -->
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+}
+</script>
+
+</body>
+</html>
